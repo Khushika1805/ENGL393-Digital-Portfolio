@@ -71,6 +71,27 @@ li{
     line-height: 1em;
 }
 
+#RA{
+    color: blue;
+    font-style: italic;
+}
+
+#billboard{
+    width: 200px; /* Example size */
+    height: 200px;
+    rotate: 90deg;
+    object-fit: cover; /* Ensures the image content adjusts to the square */
+}
+#Sound {
+    width: 300px; /* Set desired width */
+    height: 200px; /* Set desired height */
+    object-fit: cover; /* Ensures the video fits the dimensions without stretching */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for better presentation */
+}
+
+
+
 #profile-pic{
     width: 150px;
     height: 150px;
@@ -80,6 +101,7 @@ li{
 
 #email{
     color: var(--mainTextColor);
+    font-style:oblique;
 }
 
 #socials--list{
@@ -87,12 +109,14 @@ li{
     justify-content: space-between;
     column-gap: 1em;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 #socials--list a{
     font-weight: 300;
     color: var(--secondaryTextColor);
     font-size: 0.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     transition: 0.3s;
 }
 
@@ -148,6 +172,30 @@ li{
     background-color: var(--mainBorderColor);
     height: 1px;
 }
+.project1{
+    background-color: lightslategray;
+}
+.project1 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.project2{
+    background-color: lightslategray;
+}
+.project2 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.project3{
+    background-color: lightslategray;
+}
+.project3 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.project4{
+    background-color: lightslategray;
+}
+.project4 h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 
 @media(max-width:600px){
@@ -178,3 +226,4 @@ li{
         padding-left: 0;
     }
 }
+
